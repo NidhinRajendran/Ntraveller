@@ -1,0 +1,240 @@
+*{
+    font-family: "Playfair Display", serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --x : rgba(244, 9, 9, 0.849);
+}
+
+#logo{
+    width: 100%;
+    height: 100px;
+}
+
+ul li{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.nav-item:hover{
+    color: var(--x);
+}
+
+#button{
+    background-color: var(--x);
+    color: white;
+    border: .5px solid black;
+}
+
+#button:hover{
+    background-color: white;
+    color: black;
+    border: .5px solid var(--x);
+}
+
+
+#main
+{
+    background-image: url('./images/pexels-pixabay-532826.jpg');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+#dark1{
+    width: 100%;
+    height: 120vh;
+    background-color: rgba(0, 0, 0, 0.534);
+    
+}
+
+#home h2{
+    
+    color: white;
+
+}
+
+#packages{
+    background-color: white;
+}
+
+#home img{
+    padding: 0px;
+    width: 200px;
+    height: 150px;
+}
+
+#home:hover img{
+    animation: anime 5s;
+}
+@keyframes anime {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+
+@media(max-width:992px)
+{
+    .nav-item i{
+        display: none;
+    }
+    
+}
+
+@media(max-width: 600px)
+{
+    #main{
+        background-position: bottom;
+        
+    }
+}
+
+
+
+#home h1{
+    color: white;
+    
+}
+
+#btn1{
+    
+    color:white ;
+}
+
+#btn2{
+    color:white ;
+}
+#btn3{
+    color:white ;
+    font-weight: 400;
+    margin-left: 95px;
+
+}
+
+#home a:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+#packages{
+    width: 100%;
+}
+#cards{
+    box-shadow: 0 0 10px 0 rgba(55, 55, 55, 0.26)
+
+}
+#cards a{
+    margin-left: 0%;
+    
+}
+
+#cards a:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+span{
+    color: var(--x);
+    font-weight: 600;
+}
+
+#extras{
+    background-image: url(./images/pexels-adhitya-andanu-703461-1539116.jpg);
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-attachment: fixed;  
+    width: 100%;
+}
+
+#dark2{
+    width: 100%;
+    height: 150vh;
+    background-color: rgba(0, 0, 0, 0.534);
+    
+}
+
+
+.dropdown button:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+.dropdown-menu a:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+#card-body{
+    background-color: rgb(181, 181, 181);
+}
+
+.card-body a:hover{
+    background-color: var(--x);
+    color: white;
+
+}
+
+#hotels{
+    background-image: url('./images/pexels-pixabay-38238.jpg');
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    margin-top: 10%;
+
+}
+
+.carousel-caption h3{
+    font-weight: 600;
+    margin-top: 90%;
+}
+
+#testimonials{
+    width: 100%;
+    margin-bottom: 10%;
+
+}
+
+#testimonials h6{
+    color: var(--x);
+
+}
+
+#footeri:hover{
+    background-color: white;
+    color: var(--x);
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
